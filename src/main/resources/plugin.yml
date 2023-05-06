@@ -1,0 +1,10 @@
+name: mcwordle
+version: '${version}'
+main: me.whe.mcwordle.MCWordle
+api-version: 1.19
+commands:
+  wordle:
+    description: Starts the Wordle game for a player
+    usage: /<command>
+    aliases:
+      - wd
